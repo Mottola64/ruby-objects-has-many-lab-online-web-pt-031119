@@ -7,6 +7,11 @@ def initialize(song)
   songs << song
 end
 
+def name(name)
+  @name = name
+end
+
+
 def songs
   @song
 end
