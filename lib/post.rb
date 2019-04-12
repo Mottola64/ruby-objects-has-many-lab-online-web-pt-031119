@@ -6,4 +6,8 @@ def initialize(title)
 @@all = []
 end
 
+def self.all
+  @@all
+end
+
 end
