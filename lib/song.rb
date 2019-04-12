@@ -12,12 +12,7 @@ def self.all
 end
 
 def artist_name
-
-if artist == " "
-  puts "nil"
-else
-  self.artist.name
-end
-
+    artist.name if artist
+  end
 end
 end
