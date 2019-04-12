@@ -12,7 +12,7 @@ def self.all
   @@all
 end
 
-def author_name(title)
+def author_name
 author_name if author
 end
 
