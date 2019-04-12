@@ -20,7 +20,7 @@ end
 
 def add_post_by_name(name)
 post = Post.new(name)
-@@posts << post
+self.post << post
 post.author = self
 @@post_count += 1
 end
