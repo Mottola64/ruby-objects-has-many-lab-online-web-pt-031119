@@ -13,5 +13,8 @@ def self.all
 end
 
 def author_name(title)
+author_name if author
 end
+
+
 end
