@@ -11,7 +11,7 @@ def self.all
 end
 
 def artist_name
-if artist == NIL
+if artist = NIL
   puts "nil"
   elsif
   self.artist.name
