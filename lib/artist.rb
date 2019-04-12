@@ -12,7 +12,7 @@ end
 
 def add_song(song)
   @@songs << song
-  
+  self.song
 end
 
 end
