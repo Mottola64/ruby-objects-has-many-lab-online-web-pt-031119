@@ -13,5 +13,7 @@ end
 
 def add_post(post)
 @@posts << post
-@@posts
+post.author = self
+end
+
 end
