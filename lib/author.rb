@@ -1,5 +1,5 @@
 class Author
-attr_accessor :name
+attr_accessor :name, :post
 
 @@posts = []
 
@@ -11,6 +11,6 @@ def posts
   @@posts
 end
 
-def add_post(name)
+def add_post(post)
 
 end
