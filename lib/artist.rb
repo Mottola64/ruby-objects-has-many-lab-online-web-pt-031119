@@ -18,7 +18,7 @@ end
 
 def add_song_by_name(song)
 song = self.new
-song.name = sel
+song.artist = self
 end
 
 def self.song_count
