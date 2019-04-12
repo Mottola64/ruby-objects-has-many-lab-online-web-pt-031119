@@ -12,5 +12,6 @@ def posts
 end
 
 def add_post(post)
-
+@@posts << post
+@@posts
 end
