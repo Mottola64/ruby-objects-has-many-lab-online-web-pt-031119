@@ -17,5 +17,5 @@ if artist == NIL
   self.artist.name
 end
 
-
+end
 end
