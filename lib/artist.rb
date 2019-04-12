@@ -7,8 +7,8 @@ def initialize(song)
   songs << song
 end
 
-def name(name)
-  @name = name
+def name
+  @name
 end
 
 
