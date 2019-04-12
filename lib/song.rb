@@ -12,7 +12,7 @@ end
 
 def artist_name
 
-if artist == "nil"
+if artist == 0
   puts "nil"
 else
   self.artist.name
