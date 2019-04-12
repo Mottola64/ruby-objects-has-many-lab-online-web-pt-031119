@@ -11,4 +11,5 @@ def posts
   @@posts
 end
 
+
 end
