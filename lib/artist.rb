@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def songs
-  @song
+  @songs
 end
 
 end
